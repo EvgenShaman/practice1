@@ -1,3 +1,0 @@
-class ProductA extends Product{
-
-}
