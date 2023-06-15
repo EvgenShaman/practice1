@@ -1,0 +1,63 @@
+2023-06-05T10:22:57.344+03:00  INFO 23456 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 17.0.7 with PID 23456 (C:\Users\evgen\Downloads\takk22\demo\build\classes\java\main started by evgen in C:\Users\evgen\Downloads\takk22\demo)
+2023-06-05T10:22:57.357+03:00  INFO 23456 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-06-05T10:22:59.070+03:00  INFO 23456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-05T10:22:59.149+03:00  INFO 23456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
+2023-06-05T10:23:00.622+03:00  INFO 23456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-05T10:23:00.642+03:00  INFO 23456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-05T10:23:00.642+03:00  INFO 23456 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-05T10:23:00.887+03:00  INFO 23456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-05T10:23:00.888+03:00  INFO 23456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3435 ms
+2023-06-05T10:23:01.288+03:00  INFO 23456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-05T10:23:01.629+03:00  INFO 23456 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@34a20f16
+2023-06-05T10:23:01.632+03:00  INFO 23456 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-05T10:23:01.834+03:00  INFO 23456 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-05T10:23:01.994+03:00  INFO 23456 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-05T10:23:02.563+03:00  INFO 23456 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-06-05T10:23:02.565+03:00  WARN 23456 --- [main] org.hibernate.orm.deprecation            : HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+2023-06-05T10:23:04.051+03:00  INFO 23456 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-05T10:23:04.072+03:00  INFO 23456 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-05T10:23:05.264+03:00  WARN 23456 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-05T10:23:06.146+03:00  INFO 23456 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-05T10:23:06.252+03:00  INFO 23456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-05T10:23:06.287+03:00  INFO 23456 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 9.545 seconds (process running for 11.561)
+2023-06-05T10:23:06.322+03:00  INFO 23456 --- [task-1] com.example.demo.Aspect                  : Complition time 5.15815875E14s
+2023-06-05T10:41:28.799+03:00  INFO 24180 --- [Test worker] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 17.0.7 with PID 24180 (started by evgen in C:\Users\evgen\Downloads\takk22\demo)
+2023-06-05T10:41:28.801+03:00  INFO 24180 --- [Test worker] com.example.demo.DemoApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-06-05T10:41:30.277+03:00  INFO 24180 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-05T10:41:30.356+03:00  INFO 24180 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 2 JPA repository interfaces.
+2023-06-05T10:41:31.136+03:00  INFO 24180 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-05T10:41:31.456+03:00  INFO 24180 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@61b838f2
+2023-06-05T10:41:31.460+03:00  INFO 24180 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-05T10:41:31.543+03:00  INFO 24180 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-05T10:41:31.629+03:00  INFO 24180 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-05T10:41:32.248+03:00  INFO 24180 --- [Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-06-05T10:41:32.251+03:00  WARN 24180 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+2023-06-05T10:41:33.327+03:00  INFO 24180 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-05T10:41:33.338+03:00  INFO 24180 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-05T10:41:34.351+03:00  WARN 24180 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-05T10:41:35.221+03:00  INFO 24180 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-05T10:41:35.313+03:00  INFO 24180 --- [Test worker] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 6.899 seconds (process running for 9.479)
+2023-06-05T10:41:35.342+03:00  INFO 24180 --- [task-1] com.example.demo.Aspect                  : Complition time 5.16924883E14s
+2023-06-05T10:41:35.901+03:00  INFO 24180 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-05T10:41:35.906+03:00  INFO 24180 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-05T10:41:35.918+03:00  INFO 24180 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-06-05T11:18:57.685+03:00  INFO 29284 --- [Test worker] com.example.demo.DemoApplicationTests    : Starting DemoApplicationTests using Java 17.0.7 with PID 29284 (started by evgen in C:\Users\evgen\Downloads\takk22\demo)
+2023-06-05T11:18:57.688+03:00  INFO 29284 --- [Test worker] com.example.demo.DemoApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2023-06-05T11:18:59.532+03:00  INFO 29284 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-05T11:18:59.640+03:00  INFO 29284 --- [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 2 JPA repository interfaces.
+2023-06-05T11:19:00.817+03:00  INFO 29284 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-05T11:19:01.323+03:00  INFO 29284 --- [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@370c7cc5
+2023-06-05T11:19:01.326+03:00  INFO 29284 --- [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-05T11:19:01.388+03:00  INFO 29284 --- [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-05T11:19:01.526+03:00  INFO 29284 --- [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-05T11:19:02.881+03:00  INFO 29284 --- [Test worker] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-06-05T11:19:02.884+03:00  WARN 29284 --- [Test worker] org.hibernate.orm.deprecation            : HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+2023-06-05T11:19:04.099+03:00  INFO 29284 --- [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-05T11:19:04.118+03:00  INFO 29284 --- [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-05T11:19:05.339+03:00  WARN 29284 --- [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-05T11:19:06.358+03:00  INFO 29284 --- [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-05T11:19:06.492+03:00  INFO 29284 --- [Test worker] com.example.demo.DemoApplicationTests    : Started DemoApplicationTests in 9.161 seconds (process running for 10.833)
+2023-06-05T11:19:06.791+03:00  INFO 29284 --- [task-1] com.example.demo.Aspect                  : Complition time 5.19176351E14s
+2023-06-05T11:19:07.905+03:00  INFO 29284 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-05T11:19:07.931+03:00  INFO 29284 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-05T11:19:07.962+03:00  INFO 29284 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

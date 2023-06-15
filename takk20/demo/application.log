@@ -1,0 +1,80 @@
+2023-06-04T09:35:48.680+03:00  INFO 18964 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19 with PID 18964 (C:\Users\evgen\Downloads\takk19\demo\build\classes\java\main started by evgen in C:\Users\evgen\Downloads\takk19\demo)
+2023-06-04T09:35:48.684+03:00  INFO 18964 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-06-04T09:35:50.520+03:00  INFO 18964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-04T09:35:50.603+03:00  INFO 18964 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+2023-06-04T09:35:51.772+03:00  INFO 18964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-04T09:35:51.788+03:00  INFO 18964 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-04T09:35:51.789+03:00  INFO 18964 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-04T09:35:51.931+03:00  INFO 18964 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-04T09:35:51.932+03:00  INFO 18964 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3137 ms
+2023-06-04T09:35:52.398+03:00  INFO 18964 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-04T09:35:52.780+03:00  INFO 18964 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@a0c5be
+2023-06-04T09:35:52.782+03:00  INFO 18964 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-04T09:35:52.865+03:00  INFO 18964 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-04T09:35:52.975+03:00  INFO 18964 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-04T09:35:53.568+03:00  INFO 18964 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-06-04T09:35:53.570+03:00  WARN 18964 --- [main] org.hibernate.orm.deprecation            : HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+2023-06-04T09:35:55.071+03:00  INFO 18964 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-04T09:35:55.095+03:00  INFO 18964 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-04T09:35:56.454+03:00  WARN 18964 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-04T09:35:57.633+03:00  INFO 18964 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-04T09:35:57.953+03:00  INFO 18964 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-04T09:35:57.981+03:00  INFO 18964 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 9.978 seconds (process running for 10.513)
+2023-06-04T09:36:05.917+03:00  INFO 18964 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-04T09:36:05.929+03:00  INFO 18964 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-04T09:36:05.946+03:00  INFO 18964 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2023-06-04T09:36:06.060+03:00  INFO 18964 --- [http-nio-8080-exec-1] com.example.demo.service.BookService     : filter_getDate
+2023-06-04T09:47:59.231+03:00  INFO 27572 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19 with PID 27572 (C:\Users\evgen\Downloads\takk19\demo\build\classes\java\main started by evgen in C:\Users\evgen\Downloads\takk19\demo)
+2023-06-04T09:47:59.240+03:00  INFO 27572 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-06-04T09:48:00.706+03:00  INFO 27572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-04T09:48:00.786+03:00  INFO 27572 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+2023-06-04T09:48:01.902+03:00  INFO 27572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-04T09:48:01.919+03:00  INFO 27572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-04T09:48:01.919+03:00  INFO 27572 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-04T09:48:02.071+03:00  INFO 27572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-04T09:48:02.072+03:00  INFO 27572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2751 ms
+2023-06-04T09:48:02.518+03:00  INFO 27572 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-04T09:48:02.902+03:00  INFO 27572 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@48bc2fce
+2023-06-04T09:48:02.904+03:00  INFO 27572 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-04T09:48:03.022+03:00  INFO 27572 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-04T09:48:03.126+03:00  INFO 27572 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-04T09:48:03.820+03:00  INFO 27572 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-06-04T09:48:03.828+03:00  WARN 27572 --- [main] org.hibernate.orm.deprecation            : HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+2023-06-04T09:48:05.036+03:00  INFO 27572 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-04T09:48:05.061+03:00  INFO 27572 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-04T09:48:05.759+03:00  WARN 27572 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-04T09:48:06.656+03:00  INFO 27572 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-04T09:48:06.803+03:00  INFO 27572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-04T09:48:06.828+03:00  INFO 27572 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 8.291 seconds (process running for 8.789)
+2023-06-04T09:48:09.901+03:00  INFO 27572 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-04T09:48:09.902+03:00  INFO 27572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-04T09:48:09.904+03:00  INFO 27572 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-04T09:48:10.025+03:00  INFO 27572 --- [http-nio-8080-exec-1] com.example.demo.service.BookService     : filter_getDate
+2023-06-04T09:48:10.154+03:00  INFO 27572 --- [http-nio-8080-exec-1] com.example.demo.Aspect                  : Время выполнения 4.273159E14s
+2023-06-04T09:49:12.560+03:00  INFO 29440 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 19 with PID 29440 (C:\Users\evgen\Downloads\takk19\demo\build\classes\java\main started by evgen in C:\Users\evgen\Downloads\takk19\demo)
+2023-06-04T09:49:12.564+03:00  INFO 29440 --- [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2023-06-04T09:49:14.020+03:00  INFO 29440 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-04T09:49:14.094+03:00  INFO 29440 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2023-06-04T09:49:15.093+03:00  INFO 29440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-04T09:49:15.108+03:00  INFO 29440 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-04T09:49:15.108+03:00  INFO 29440 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-04T09:49:15.241+03:00  INFO 29440 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-04T09:49:15.242+03:00  INFO 29440 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2595 ms
+2023-06-04T09:49:15.641+03:00  INFO 29440 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-04T09:49:15.957+03:00  INFO 29440 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6af310c7
+2023-06-04T09:49:15.959+03:00  INFO 29440 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-04T09:49:16.028+03:00  INFO 29440 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-04T09:49:16.094+03:00  INFO 29440 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-06-04T09:49:16.653+03:00  INFO 29440 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-06-04T09:49:16.656+03:00  WARN 29440 --- [main] org.hibernate.orm.deprecation            : HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+2023-06-04T09:49:17.789+03:00  INFO 29440 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-04T09:49:17.801+03:00  INFO 29440 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-04T09:49:18.440+03:00  WARN 29440 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-04T09:49:19.136+03:00  INFO 29440 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-06-04T09:49:19.239+03:00  INFO 29440 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-04T09:49:19.260+03:00  INFO 29440 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 7.336 seconds (process running for 7.814)
+2023-06-04T09:49:34.086+03:00  INFO 29440 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-04T09:49:34.088+03:00  INFO 29440 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-04T09:49:34.097+03:00  INFO 29440 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2023-06-04T09:49:34.471+03:00  INFO 29440 --- [http-nio-8080-exec-1] com.example.demo.service.BookService     : filter_getDate
+2023-06-04T09:49:34.835+03:00  INFO 29440 --- [http-nio-8080-exec-1] com.example.demo.Aspect                  : Complition time 4.274006E14s

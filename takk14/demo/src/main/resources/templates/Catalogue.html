@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <div style="display: flex; flex-direction: column;">
+        <div th:each="el : ${books}" class="alert alert-info mt-2">
+            <p th:text="${el.name}"></p>
+            <p th:text="${el.creationDate}"></p>
+        </div>
+        <div th:each="el : ${authors}" class="alert alert-info mt-2">
+            <p th:text="${el.firstName}"></p>
+            <p th:text="${el.lastName}"></p>
+            <p th:text="${el.middleName}"></p>
+            <p th:text="${el.birthDate}"></p>
+        </div>
+    </div>
+</body>
+<html>

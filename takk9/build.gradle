@@ -1,0 +1,34 @@
+plugins {
+    id 'java'
+    id 'com.palantir.docker' version '0.25.0'
+}
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+    }
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'Main'
+    }
+    from sourceSets.main.output
+}
+
+task buildDocker(type: Exec) {
+    dependsOn jar
+    doFirst {
+        copy {
+            from jar
+            into 'build/docker'
+        }
+    }
+    commandLine 'docker', 'build', '-t', 'mirea', 'build/docker'
+}
+
+task runDocker(type: Exec) {
+    dependsOn buildDocker
+    commandLine 'docker', 'run', '-p', '8080:8080', 'mirea'
+}

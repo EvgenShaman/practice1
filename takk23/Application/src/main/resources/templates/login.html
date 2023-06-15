@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<div id="cb">
+    <body style="length: 100%; width:100%">
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
+    <div style="font-size: 10svh">Авторизация</div>
+    <div th:if="${param.error}">
+        Invalid username and password.
+    </div>
+    <div th:if="${param.logout}">
+        You have been logged out.
+    </div>
+    <form th:action="@{/login}" method="post">
+        <div><label style="font-size: 3svh"> User Name : <input type="text" name="username" style="font-size: 3svh"/> </label></div>
+        <div><label style="font-size: 3svh"> Password: <input type="password" name="password" style="font-size: 3svh"/> </label></div>
+        <div><input type="submit" value="Sign In" style="font-size: 5svh"/></div>
+    </form>
+    <form>
+        <a href="/registration" style="font-size: 3svh">Add New User</a>
+    </form>
+    </div>
+    </body>
+</div>
+</body>
+</html>

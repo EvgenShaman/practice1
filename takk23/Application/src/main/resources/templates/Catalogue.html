@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <div id="cb">
+        <div th:each="el : ${food}" class="alert alert-info mt-2">
+            <h3 th:text="${el.name}"></h3>
+            <p th:text="${el.cost}"></p>
+            <img src="'../static/icons/' + ${el.pictureName}" th:src="@{'/icons/' + ${el.pictureName}}" height="300px" width="300px" style="margin: 4svh;">
+        </div>
+    </div>
+</body>
+<html>
